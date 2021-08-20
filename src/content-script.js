@@ -1,7 +1,7 @@
 let lat = 43.6532259;
 let long = -79.383186;
 const exclude = "current,minutely,daily,alerts";
-const appId = "fbdcfc46667d86f4dcd6efdff2480997";
+const appId = "";
 const url = `https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${long}&exclude=${exclude}&appid=${appId}`;
 
 const sleep = m => new Promise(r => setTimeout(r, m));
