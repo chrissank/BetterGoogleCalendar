@@ -1,12 +1,12 @@
 {
     "name": "gcalweather",
     "description": "See the weather right on your calendar.",
-    "version": "1.0",
+    "version": "0.01",
     "manifest_version": 3,
     "action": {
         "default_popup": "popup.html"
     },
-    "permissions": ["geolocation", "storage"],
+    "permissions": ["geolocation"],
     "content_scripts": [
         {
             "matches": ["https://calendar.google.com/calendar/*"],
@@ -16,5 +16,10 @@
     ],
     "background": {
         "service_worker": "background-script.js"
+    },
+    "icons": {
+        "16": "gcalweather_16.png",
+        "48": "gcalweather_48.png",
+        "128": "gcalweather_128.png"
     }
 }
