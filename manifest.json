@@ -1,7 +1,7 @@
 {
     "name": "gcalweather",
     "description": "See the weather right on your calendar.",
-    "version": "0.01",
+    "version": "0.02",
     "manifest_version": 3,
     "action": {
         "default_popup": "popup.html"
